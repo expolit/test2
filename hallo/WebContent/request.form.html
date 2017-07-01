@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div align=center>
+		<H2> request 테스트 폼 </H2>
+		<HR>
+		<form name=form1 method=post action=request_result.jsp>
+
+			<table border=1 cellspacing="1" cellpadding="5">
+				<tr>
+					<td>이름</td>
+					<td><input type= text size=10 name=username></td>
+				<tr>
+					<td>직업</td>
+					<td><select name=job>
+							<option selected>무직</option>
+							<option>곤충</option>
+							<option>파충류</option>
+							<option>양서류</option>
+                            <option>포유류</option>
+                            <option>어류</option>
+                            <option>닝겐</opotion>
+					</select></td>
+				<tr>
+					<td>관심 분야</td>
+					<td><input type= checkbox name=favorite value="정치"> 정치 <input
+						type=checkbox name=favorite value="사회"> 사회 <input
+						type=checkbox name=favorite value="정보통신"> 정보통신
+				<tr>
+					<td colspan=2 align=center><input type= submit value = "확인">
+						<input type=reset value="취소"></td>
+
+				</tr>
+
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
